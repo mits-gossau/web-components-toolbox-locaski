@@ -45,7 +45,7 @@
   --a-text-decoration-hover: underline;
   --a-text-decoration: none;
   --a-text-underline-offset: 0.2em;
-  --background-color: #ffffff;
+  --background-color: var(--m-white);
   --bg-color: var(--m-white);
   --bull-li-before-border-width: 0;
   --bull-li-before-height: 0.3125em;
@@ -58,25 +58,18 @@
   --color-tertiary: #3c5f80;
   --color: #000000;
   --details-menu-single-p-margin: 0;
-  --emotion-pictures-with-button-bg-background-color-custom: var(
-    --color-secondary
-  );
+  --emotion-pictures-with-button-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-button-bg-color-custom: var(--m-white);
   --emotion-pictures-with-button-h2-text-transform-custom: none;
   --emotion-pictures-with-button-subline-display-mobile: none;
-  --emotion-pictures-with-logo-bg-background-color-custom: var(
-    --color-secondary
-  );
+  --emotion-pictures-with-logo-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-logo-bg-color-custom: var(--m-white);
   --emotion-pictures-with-title-a-text-decoration: none;
-  --emotion-pictures-with-title-bg-background-color-custom: var(
-    --color-secondary
-  );
+  --emotion-pictures-with-title-bg-background-color-custom: var(--color-secondary);
   --emotion-pictures-with-title-bg-color-custom: var(--m-white);
   --emotion-pictures-with-title-h2-text-transform-custom: none;
   --emotion-pictures-with-title-subline-display-mobile-custom: none;
-  --font-family-bold: DINW01Bold, HelveticaNowTextBold, HelveticaNowText,
-    Helvetica, Arial, sans-serif;
+  --font-family-bold: DINW01Bold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: Avenir35Light, sans-serif;
   --font-family-tertiary: LucidaHandwritingW01Regular, sans-serif;
   --font-family: DINW01Regular, HelveticaNowText, Helvetica, Arial, sans-serif;
@@ -84,11 +77,11 @@
   --footer-default-h4-color: var(--color-secondary);
   --footer-default-invert-background-color-custom: #111111;
   --footer-default-invert-color-custom: var(--m-white);
-  --footer-default-invert-orange-background-color-custom: #000000;
+  --footer-default-invert-orange-background-color-custom: var(--color);
   --footer-default-ul-list-style: none;
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
   --header-default-a-logo-top-mobile-custom: 0;
-  --header-default-a-menu-icon-background-color-custom: var(--color);
+  --header-default-a-menu-icon-background-color-custom: var(--m-white);
   --header-default-background-color-custom: #222222;
   --header-default-logo-width-custom: 90px;
   --input-color: #404052;
@@ -100,7 +93,7 @@
   --news-default-li-before-left: -18px;
   --pagination-default-a-color-custom: var(--m-white);
   --pagination-default-a-color-hover-custom: var(--color-secondary);
-  --pagination-default-background-color-custom: black;
+  --pagination-default-background-color-custom: var(--color);
   --teaser-overlay-bg-color-custom: var(--m-white);
   --teaser-plain-color-custom: var(--m-white);
   --teaser-plain-h2-margin-custom: 0;
